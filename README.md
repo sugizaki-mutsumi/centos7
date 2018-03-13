@@ -23,7 +23,8 @@ gpgcheck=0
 # yum -y install glib2-devel
 # yum -y install gtk3-devel
 # tar xvf geeqie-1.3.tar.xz
-# cd geeqie-1.3.tar.xz
+# cd geeqie-1.3
+# ./autogen.sh
 # make
 # make install
 ```
