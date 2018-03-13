@@ -14,3 +14,16 @@ gpgcheck=0
 # yum install subversion
 # svn --version
 ```
+
+
+## geeqie
+```
+# yum -y install intltool
+# yum -y install doxygen
+# yum -y install glib2-devel
+# yum -y install gtk3-devel
+# tar xvf geeqie-1.3.tar.xz
+# cd geeqie-1.3.tar.xz
+# make
+# make install
+```
