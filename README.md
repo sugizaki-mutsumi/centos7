@@ -28,3 +28,16 @@ gpgcheck=0
 # make
 # make install
 ```
+
+### epel
+```
+# yum -y install yum-plugin-priorities 
+# sed -i -e "s/\]$/\]\npriority=1/g" /etc/yum.repos.d/CentOS-Base.repo 
+
+# yum -y install epel-release 
+# sed -i -e "s/enabled=1/enabled=0/g" /etc/yum.repos.d/epel.repo 
+# yum --enablerepo=epel install [package name]
+
+### pip
+# yum --enablerepo=epel install python2-pip
+```
